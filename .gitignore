@@ -1,0 +1,74 @@
+# ======================
+# Unity generated folders
+# ======================
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+
+# Unity cache
+[Uu]ser[Ss]ettings/
+
+# ======================
+# Asset meta data
+# ======================
+# Uncomment this if you do NOT want to track meta files
+# *.meta
+
+# ======================
+# Visual Studio / Rider / VS Code
+# ======================
+.vs/
+.vscode/
+.idea/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+
+# ======================
+# OS generated files
+# ======================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ======================
+# Crash reports
+# ======================
+sysinfo.txt
+
+# ======================
+# Build artifacts
+# ======================
+*.apk
+*.aab
+*.exe
+*.app
+*.unitypackage
+
+# ======================
+# Addressables & StreamingAssets (optioneel)
+# ======================
+# Uncomment if you generate these at runtime
+# Assets/StreamingAssets/*
+# Assets/AddressableAssetsData/*
+
+# ======================
+# Unity Collaborate / Plastic SCM
+# ======================
+.collabignore
+.plasticscm/

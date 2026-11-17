@@ -1,0 +1,67 @@
+{
+    "version": 1,
+    "name": "player",
+    "maps": [
+        {
+            "name": "actions",
+            "id": "29d38d30-70eb-4a0c-aa7a-351b15a9a677",
+            "actions": [
+                {
+                    "name": "touchPosition",
+                    "type": "Value",
+                    "id": "3f0b59a8-9ace-45af-aa13-cb83d854b350",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "touchPress",
+                    "type": "Button",
+                    "id": "2210fc26-1dee-4ce4-9b83-12bca6a16b50",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "01c340c6-024b-4bf6-81dd-4ff1ba0b9971",
+                    "path": "<Touchscreen>/primaryTouch/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";mobile",
+                    "action": "touchPosition",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3a078b8b-d972-4c24-a003-6db0b2a84612",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";mobile",
+                    "action": "touchPress",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "mobile",
+            "bindingGroup": "mobile",
+            "devices": [
+                {
+                    "devicePath": "<Touchscreen>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
